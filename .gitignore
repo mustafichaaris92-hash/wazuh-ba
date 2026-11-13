@@ -1,0 +1,89 @@
+# ==========================================
+# WAZUH BA - GIT IGNORE
+# ==========================================
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Windows temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*~
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+
+# Temporary and cache files
+*.cache
+.cache/
+tmp/
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# PowerShell temporary files
+*.ps1~ 
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Virtual machines and disk images
+*.vhd
+*.vhdx
+*.vmdk
+*.vdi
+*.iso
+
+# Archives and installers
+*.zip
+*.7z
+*.rar
+*.exe
+*.msi
+
+# Sensitive information - NEVER upload
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+private/
+
+# API keys and local configuration
+config.local.*
+secrets.local.*
+
+# Wazuh local test data
+wazuh-alerts-*
+wazuh-archives-*
+*.pcap
+
+# OS and application exports
+*.dump
+*.dmp
+*.core
+
+# Local documentation drafts
+drafts/
