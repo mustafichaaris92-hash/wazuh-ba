@@ -1,34 +1,38 @@
- <div align="center">
-
 # 🛡️ Wazuh BA
 
 ### Praktični SIEM i XDR vodiči na bosanskom jeziku
 
 **Uči. Implementiraj. Testiraj. Zaštiti.**
 
-</div>
+Praktični vodiči za implementaciju, konfiguraciju i napredno korištenje Wazuh platforme, uz zadržavanje originalnih engleskih stručnih termina.
 
 ---
 
-<h2>📖 O projektu</h2>
+## 📖 O projektu
 
 **Wazuh BA** je nezavisni edukativni open-source projekat namijenjen IT administratorima, sigurnosnim stručnjacima, studentima i svima koji žele savladati praktičnu primjenu Wazuh platforme za sigurnosni nadzor, detekciju prijetnji i odgovor na incidente.
 
-Cilj projekta je približiti oblast *Enterprise Cybersecurity* lokalnoj IT zajednici kroz praktične, korak-po-korak (*step-by-step*) vodiče zasnovane na stvarnim scenarijima i testiranjima u laboratorijskom okruženju.
+Cilj projekta je približiti oblast Enterprise Cybersecurity lokalnoj IT zajednici kroz praktične, korak-po-korak (step-by-step) vodiče zasnovane na stvarnim scenarijima i testiranjima u laboratorijskom okruženju.
 
-<h2>🚀 Šta obuhvata projekat?</h2>
+Dokumentacija je na bosanskom jeziku, uz korištenje originalnih engleskih stručnih termina kako bi se olakšalo razumijevanje zvanične dokumentacije i primjena stečenog znanja u produkcijskim okruženjima.
+
+## 🚀 Šta obuhvata projekat?
+
+Fokus je na praktičnoj implementaciji Wazuha i njegovoj integraciji s postojećom IT infrastrukturom.
 
 | Oblast | Sadržaj |
 |:---|:---|
-| 🏗️ **Arhitektura i instalacija** | Wazuh arhitektura, Hyper-V i optimizacija resursa |
-| 💻 **Agent Deployment** | Instalacija Windows i Linux agenata |
-| ⚙️ **Automatizacija** | PowerShell skripte i Active Directory GPO |
-| 🌐 **Mrežna integracija** | FortiGate, Syslog i centralizacija logova |
-| 🔒 **Active Response** | Automatsko reagovanje na prijetnje |
-| 🔔 **Alerting** | Discord integracija i sigurnosna obavještenja |
-| 📊 **Analitika** | Threat Hunting i Security Monitoring |
+| 🏗️ Arhitektura i instalacija | Wazuh arhitektura, Hyper-V, virtualne mašine i optimizacija resursa |
+| 💻 Agent Deployment | Instalacija i povezivanje Windows i Linux agenata |
+| ⚙️ Automatizacija | Deployment putem PowerShell skripti i Active Directory GPO-a |
+| 🌐 Mrežna integracija | FortiGate firewall, Syslog i centralizacija logova |
+| 🔒 Active Response | Automatsko reagovanje i blokiranje detektovanih prijetnji |
+| 🔔 Alerting | Discord integracija i obavještenja o sigurnosnim događajima |
+| 📊 Analitika | Threat Hunting, Security Monitoring i optimizacija sistema |
 
-<h2>📚 Dokumentacija i vodiči</h2>
+## 📚 Dokumentacija i vodiči
+
+Vodiči se objavljuju postepeno, nakon testiranja konfiguracija u laboratorijskom okruženju.
 
 | # | Vodič | Status |
 |:---:|:---|:---:|
@@ -40,28 +44,38 @@ Cilj projekta je približiti oblast *Enterprise Cybersecurity* lokalnoj IT zajed
 | 06 | Active Response | 🟡 Planirano |
 | 07 | Discord Alerting | 🟡 Planirano |
 
-<h2>🎯 Kome je projekat namijenjen?</h2>
+Statusi će se ažurirati kako budu objavljivani testirani vodiči.
 
-- 🧑‍💻 **Sistemskim i mrežnim administratorima** – unapređenje sigurnosti infrastrukture.
-- 🌱 **IT početnicima i entuzijastima** – izgradnja temelja iz cyber sigurnosti.
-- 🎓 **Studentima** – sticanje praktičnog iskustva.
-- 🏢 **IT organizacijama** – unapređenje sigurnosnog nadzora i usklađivanje sa standardima poput ISO/IEC 27001.
+## 🎯 Kome je projekat namijenjen?
 
-<h2>🧪 Pristup učenju</h2>
+- 🧑‍💻 **Sistemskim i mrežnim administratorima** – koji žele unaprijediti sigurnost svoje infrastrukture.
+- 🌱 **IT početnicima i entuzijastima** – koji žele izgraditi temelje iz oblasti cyber sigurnosti.
+- 🎓 **Studentima** – koji žele steći praktično (hands-on) iskustvo.
+- 🏢 **IT organizacijama** – koje žele unaprijediti sigurnosni nadzor i pripremiti infrastrukturu za standarde poput ISO/IEC 27001.
 
-1. **Razumijevanje** – arhitektura i način rada.
-2. **Implementacija** – konfiguracija korak po korak.
-3. **Testiranje** – provjera u laboratorijskom okruženju.
-4. **Analiza** – pregled logova i sigurnosnih događaja.
+## 🧪 Pristup učenju
+
+Svaki vodič prati praktičan pristup:
+
+1. **Razumijevanje** – objašnjenje arhitekture i načina rada.
+2. **Implementacija** – detaljna konfiguracija korak po korak.
+3. **Testiranje** – provjera funkcionalnosti u laboratorijskom okruženju.
+4. **Analiza** – pregled logova, događaja i rezultata.
 5. **Dokumentacija** – evidentiranje konfiguracija i naučenih lekcija.
 
-<h2>⚠️ Napomena i odricanje od odgovornosti</h2>
+Cilj nije samo naučiti instalirati Wazuh, nego razumjeti kako platforma funkcioniše, kako obrađuje sigurnosne događaje i kako se prilagođava stvarnim potrebama IT infrastrukture.
+
+## ⚠️ Napomena i odricanje od odgovornosti
 
 Wazuh BA je nezavisna edukativna inicijativa. Projekat nije službeni proizvod niti je direktno povezan s kompanijom Wazuh, Inc.
 
-Sve konfiguracije i primjeri objavljeni su u edukativne svrhe. Prije primjene u produkcijskom okruženju potrebno ih je testirati i prilagoditi vlastitoj infrastrukturi.
+Sve konfiguracije i primjeri objavljeni su u edukativne svrhe. Prije primjene u produkcijskom okruženju potrebno ih je testirati, prilagoditi vlastitoj infrastrukturi i uskladiti s internim sigurnosnim politikama.
 
-<h2>📄 Licenca i izvori</h2>
+## 📄 Licenca i izvori
+
+Wazuh je platforma otvorenog koda. Nazivi, logotipi i originalna dokumentacija pripadaju njihovim odgovarajućim vlasnicima.
+
+Za zvanične tehničke informacije posjeti:
 
 - [Wazuh – Official Documentation](https://documentation.wazuh.com/)
 - [Wazuh – GitHub Repository](https://github.com/wazuh/wazuh)
@@ -69,14 +83,17 @@ Sve konfiguracije i primjeri objavljeni su u edukativne svrhe. Prije primjene u 
 
 ---
 
-<div align="center">
+## ℹ️ Informacije o projektu
 
-**Jezik:** Bosanski uz engleske stručne termine
+| Stavka | Vrijednost |
+|:---|:---|
+| Naziv | Wazuh BA |
+| Jezik | Bosanski uz engleske stručne termine |
+| Svrha | Edukacija i praktična primjena |
+| Fokus | SIEM, XDR, Security Monitoring |
+| Platforma | Wazuh |
+| Tip projekta | Nezavisni open-source edukativni projekat |
 
-**Fokus:** SIEM · XDR · Security Monitoring
-
-### 🛡️ Znanje o cyber sigurnosti treba biti dostupno svima.
+**🛡️ Znanje o cyber sigurnosti treba biti dostupno svima.**
 
 **Uči. Implementiraj. Testiraj. Zaštiti.**
-
-</div>
